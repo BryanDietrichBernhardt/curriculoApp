@@ -29,7 +29,7 @@ const Info = () => {
         <Text style={styles.basicText}>Senac's English Course</Text>
       </View>
       <View style={styles.post}>
-        <Text style={styles.titleText}>> Contact (click for open)</Text>
+        <Text style={styles.titleText}>> Contact (click to open)</Text>
 
         <TouchableOpacity onPress={() => Linking.openURL("https://www.linkedin.com/in/bryandbernhardt/")}>
           <Text style={styles.basicText}>Linkedin</Text>
